@@ -58,7 +58,7 @@ class SimpleScanner:
         if not self.open_ports:
             print(f"    No open ports found!")
         else:
-            for port in self.open_ports
+            for port in self.open_ports:
 
 
 
