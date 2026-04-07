@@ -47,7 +47,7 @@ def load_findings(filename):
 #   Count how many times each unique value of findings[field] appears
 #   Return a dictionary, e.g. {"HIGH": 4, "MEDIUM": 3, "LOW": 5}
 def count_by_field(findings, field):
-     counts = {}
+    counts = {}
     for f in findings:
         val = f[field]
         counts[val] = counts.get(val, 0) + 1
